@@ -8,6 +8,6 @@ class Reminder
   end
 
   def remind()
-    return "#{task}, #{name}"
+    return "#{@task}, #{@name}"
   end
 end
